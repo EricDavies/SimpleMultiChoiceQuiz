@@ -1,0 +1,27 @@
+<img src="quizcontents/sample.jpg"/>
+<section>
+Free neutrons have a half live of:<br>
+<label> Life of the universe</label><br>
+<label > 4 million years</label><br>
+<label > 100 years</label><br>
+<label class="correct" > 10 minutes</label><br>
+<label > 20 milliseconds</label><br>
+</section>
+
+<section>
+Alpha particles are:<br>
+<label > A single proton</label><br>
+<label > A proton and a neutron</label><br>
+<label > Two protons and a neutron</label><br>
+<label class="correct"> Two protons and 2 two neutrons</label><br>
+<label > Very bossy midgets</label><br>
+</section>
+
+<section>
+Quantum mechanics is:<br>
+<label > Fixing nanosized automobiles</label><br>
+<label class="correct"> Statistics applied to physics</label><br>
+<label > Science toy line from Hasbro</label><br>
+<label > A drink served at Mensa meetings</label><br>
+<label > Whats inside Harry Potters wand</label><br>
+</section>
