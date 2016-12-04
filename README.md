@@ -25,6 +25,7 @@ Then run the server.js script with:
 By default, this will start the script running on port 8080.
 
 The instructor should point their browser at http://yoursite:8080/index_instructor.html. The default passphrase for the instructor is "BrettRunsFast" (without the quotes). Your browser will remember the passphrase for you. Once there, click the "Start the Quiz Period" button. When the time is up, click the "End the Quiz Period" button.
+Results can be collected in CSV form suitable to import into a spreadsheet.
 
 The students should point their browsers at http://yoursite:8080/index_student.html. It will store the students name and studentnumber (so give them some extra time on the first quiz to enter that) the first time, and then take them to the quiz page. There is a submit button the bottom right corner of the page used to submit answsers and have them marked on the fly.
 
