@@ -48,7 +48,7 @@ function addButtons() {
 }
 
 
-$("#quizbody").load("quizcontents/body.html", "empty", addButtons);
+$("#quizbody").load("body.html", "empty", addButtons);
 
 function submitanswers() {
     var sections = $("#quizbody").children();

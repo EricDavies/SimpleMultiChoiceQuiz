@@ -48,18 +48,13 @@ The quiz questions and their possible answers are stored in the static/quizconte
     </section>
      ...
 
-You can include references to other files in the quizcontents directory, but the path must begin with "quizcontents/". Ie, The sample.png already in the quizcontents directory is referenced by
+You can include references to other files in the quizcontents directory. See the example quiz for an 
+example.
 
-       src="quizcontents/sample.png"
+You denote which label is the correct answer by adding the class="correct" tag to its label. You can have at most 26 labels per question, which should be more than anyone needs.
 
-not
+There is code in the page that will edit the page to add radio buttons in front of each label when the page is delivered. Do not add the radio buttons yourself.
 
-      src="sample.png"
-
-Just to be really clear: you denote which answer is correct by adding the class="correct" tag to its label.
-
-There is code in the page that will edit the page to add radio buttons in front of each label. Do not add the radio buttons yourself.
-
-You can add addition content (like general instructions) to the static/rootQuiz.html file just after the <body> tag or just before the </body> tag.
+You can add additional content (like general instructions) to the static/rootQuiz.html file just after the body tag or just before the /body tag.
 
 

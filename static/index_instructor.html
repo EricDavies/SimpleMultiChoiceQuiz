@@ -44,15 +44,6 @@ function doPost(url, confirmMessage) {
    );
 }
 
-function startNewQuiz() {
-   doPost("/startNewQuiz.html", "New quiz started");
-}
-
-function addNewQuiz() {
-}
-
-function previewQuiz() {
-}
 
 function startQuizPeriod() {
    doPost("/startquiz", "Started quiz period");
@@ -63,6 +54,7 @@ function endQuizPeriod() {
 }
 
 function getQuizResults() {
+  window.open('/results?' + (new Date()),  '_blank');
 }
 
 </script>
@@ -83,9 +75,6 @@ Apply button, before you can write a quiz.
 </p>
 
 <div  id="controlNotBlocked" >
-   <button onclick="startNewQuiz()" class="buttonStyle"> Start a new quiz</button><br>
-   <button onclick="addNewQuiz()" class="buttonStyle"> Add a new quiz question</button><br>
-   <button onclick="previewQuiz()" class="buttonStyle"> Preview Quiz </button><br>
    <button onclick="startQuizPeriod()" class="buttonStyle"> Start the quiz period</button><br>
    <button onclick="endQuizPeriod()" class="buttonStyle"> End the quiz period</button><br>
    <button onclick="getQuizResults()" class="buttonStyle"> Get the quiz results</button><br>
