@@ -49,9 +49,12 @@ The quiz questions and their possible answers are stored in the static/quizconte
      ...
 
 You can include references to other files in the quizcontents directory, but the path must begin with "quizcontents/". Ie, The sample.png already in the quizcontents directory is referenced by
-      <img src="quizcontents/sample.png"/>
+
+       src="quizcontents/sample.png"
+
 not
-      <img src="sample.png"/>
+
+      src="sample.png"
 
 Just to be really clear: you denote which answer is correct by adding the class="correct" tag to its label.
 
