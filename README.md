@@ -33,12 +33,7 @@ The students should point their browsers at http://yoursite:8080/index_student.h
 The quiz questions and their possible answers are stored in the static/quizcontents/body.html file. The format of the file is:
 
     <section>
-Text and other content describing the first question.
-You can include references to other files in the quizcontents directory, but the path must begin with "quizcontents/". Ie, The sample.png already in the quizcontents directory is referenced by
-      <img src="quizcontents/sample.png"/>
-not
-      <img src="sample.png"/>
-
+       Text and other content describing the first question.
        <label> Text for first wrong answer</label>
        <label> Text for second wrong answer</label>
        <label class="correct"> Text for second answer</label>
@@ -53,6 +48,10 @@ not
     </section>
      ...
 
+You can include references to other files in the quizcontents directory, but the path must begin with "quizcontents/". Ie, The sample.png already in the quizcontents directory is referenced by
+      <img src="quizcontents/sample.png"/>
+not
+      <img src="sample.png"/>
 
 Just to be really clear: you denote which answer is correct by adding the class="correct" tag to its label.
 
